@@ -1,0 +1,1 @@
+select * from installments where status = 'PENDING' and dueDate < datetime('now');

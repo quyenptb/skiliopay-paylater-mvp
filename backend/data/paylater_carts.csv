@@ -1,0 +1,10 @@
+cart_id,user_id,total_amount,currency,eligible_threshold,item_count,notes
+C001,U001,120.0,USD,30.0,3,Eligible – standard
+C002,U001,45.5,USD,30.0,2,Eligible – small cart
+C003,U002,85.0,USD,30.0,1,Eligible but no payment method
+C004,U003,150.0,USD,30.0,4,Unverified user
+C005,U004,29.99,USD,30.0,1,Below threshold – hidden/disabled
+C006,U005,60.0,USD,30.0,2,No prior success – ineligible
+C007,U006,999.99,USD,30.0,6,High value cart
+C008,U007,30.0,USD,30.0,1,Exactly threshold – edge
+C009,U008,220.0,USD,30.0,5,Eligible – complex
