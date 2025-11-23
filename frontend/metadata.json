@@ -1,0 +1,5 @@
+{
+  "name": "SkilioPay PayLater",
+  "description": "Pixel-perfect PayLater checkout flow using plain CSS and specific backend integration.",
+  "requestFramePermissions": []
+}

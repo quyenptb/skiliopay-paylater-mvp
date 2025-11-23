@@ -1,0 +1,9 @@
+user_id,name,verified,prior_successful_txns,has_payment_method,default_pm_last4,timezone,locale
+U001,Alya Pratama,True,3,True,4242,Asia/Jakarta,id-ID
+U002,Bao Nguyen,True,2,False,,Asia/Ho_Chi_Minh,vi-VN
+U003,Nur Izzah,False,1,True,1881,Asia/Kuala_Lumpur,ms-MY
+U004,Kai Chen,True,1,True,0005,Asia/Singapore,en-SG
+U005,Thao Le,True,0,True,4111,Asia/Ho_Chi_Minh,vi-VN
+U006,Rizky Saputra,True,5,True,2222,Asia/Jakarta,id-ID
+U007,Maricar Dizon,True,4,True,7357,Asia/Manila,en-PH
+U008,Minh Tran,True,2,True,1212,Asia/Ho_Chi_Minh,vi-VN
