@@ -1,0 +1,11 @@
+scenario_id,user_id,cart_id,instalment1_outcome,instalment2_outcome,instalment3_outcome,description
+S001,U001,C001,success,upcoming,upcoming,"Happy path: eligible user, charge #1 success."
+S002,U001,C002,fail_then_retry_success,upcoming,upcoming,Charge #1 fails then retry succeeds.
+S003,U006,C007,success,fail,upcoming,Charge #2 fails later (simulate delinquency).
+S004,U002,C003,skip,skip,skip,Ineligible: no payment method (eligibility check blocks flow).
+S005,U003,C004,skip,skip,skip,Ineligible: user not verified.
+S006,U005,C006,skip,skip,skip,Ineligible: 0 prior successes.
+S007,U004,C005,skip,skip,skip,Cart below threshold – PayLater hidden/disabled.
+S008,U007,C008,success,upcoming,upcoming,Edge: exactly at threshold – allowed.
+S009,U008,C009,fail_then_retry_fail,upcoming,upcoming,Repeated failure on charge #1.
+S010,U001,C001,success,success,success,All three succeed (for full schedule demo).
